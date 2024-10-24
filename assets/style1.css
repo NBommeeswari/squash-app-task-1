@@ -1,0 +1,88 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.button1 button{
+  border:none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: #FFCC29;
+  border-radius: 10px;
+  margin-top: 4px;
+  height: 40px;
+  width: 130px;
+}
+.button1{
+    display: flex;
+    justify-content: flex-end;
+}       
+.navbar a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
+.page1{
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    right: 1px;
+    border: none;    
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+
+}
+.page2{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./image\ 6.jpg);
+    height: 210px;
+    margin-top: 50px;
+
+} 
+.about{
+    display: flex;
+}
+.about ul{
+    color: #FFCC29;
+}
+.aboutus{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.card2{
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;    
+}
+
+
+.card2 h2{
+    font-family: "Courgette", cursive;
+
+}
+.card2 span{
+    font-style: normal;
+}
+.card2 p{
+    font-size: 11px;
+    line-height: 20px;
+}
+.satisfaction span{
+    background-color: #FFCC29;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding-left: ;
+}
+
